@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bab 1 - DOM API</title>
+    <link rel="stylesheet" href="bab1.css">
+</head>
+<body>
+    <p id="emuotori"></p>
+    <script>
+        document.getElementById("emuotori").textContent = "Emu Otori";
+    </script>
+
+    <script>
+        var element = document.createElement('p');
+        element.textContent = "yoasobi asik coy";
+        document.body.appendChild(element);
+
+        console.log("Hello Im Emo otori");
+
+        var anjay = "JS coy ";
+        alert(anjay);
+
+        console.log(
+            {
+                'Email': '',
+                'Groups': {},
+                'Id': 33,
+                'IsHiddenInUI': false,
+                'IsSiteAdmin': false,
+                'LoginName': 'i:0#w|virtualdomain\\user2',
+                'PrincipalType': 1,
+                'Title': 'user2'
+            }
+        )
+        console.log(document.body);
+    </script>
+</body>
+</html>
